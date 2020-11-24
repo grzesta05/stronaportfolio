@@ -1,0 +1,101 @@
+body{
+background-color: #ffebcd;
+
+
+}
+
+
+.footer{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    padding-top: 5%;
+    box-sizing: border-box; 
+
+}
+
+
+.footer ul li{
+    float: left;
+   
+}
+.footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header{
+    text-align: center;
+    background-color:#deb887;
+   
+  border-bottom-width: 10px;
+  border-bottom-style: solid;
+ border-radius: 5px;
+ border-color: #f0d4ae;
+    padding-bottom: 20px; 
+    
+
+
+}
+
+.portfolio{
+    text-align: center;
+    margin: auto;
+ 
+ 
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.footer{
+    background-color: burlywood;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color: #f0d4ae;
+    border-style: solid;
+    border-top-width: 20px;
+}
+p{
+    padding-right: 5%;
+    padding-left: 5%;
+    
+}
+li{
+ list-style: none;
+}
+
+button:hover{
+    background-color: blanchedalmond;
+   
+}
+.sprites{
+display: flex;
+
+justify-content: center;
+}
+.bg-dribble {
+    width: 51.2px; height: 51.2px;
+    background: url('../images/css_sprites.png') -1px -1px;
+}
+.bg-facebook {
+    width: 51.2px; height: 51.2px;
+    background: url('../images/css_sprites.png') -54px -1px;
+}
+.bg-twitter {
+    width: 51.2px; height: 51.2px;
+    background: url('../images/css_sprites.png') -1px -54px;
+}
+.bg-dribble:hover{
+filter: blur(3px);
+} 
+.bg-facebook:hover{
+    filter: blur(3px);
+} 
+.bg-twitter:hover{
+    filter: blur(3px);
+} 
